@@ -1,0 +1,11 @@
+import math
+
+
+def get_influencer_score(num_followers, average_engagement_percentage):
+    return average_engagement_percentage * math.log(num_followers, 2)
+
+print(get_influencer_score(
+    num_followers=40000,
+    average_engagement_percentage=0.3
+))
+
