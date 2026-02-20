@@ -6,4 +6,4 @@ def find_max(nums):
     return max
 
 
-# print(find_max([32,1,43,5434,12]))
+print(find_max([32, 1, 43, 5434, 12]))
