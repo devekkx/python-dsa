@@ -1,9 +1,9 @@
 def find_max(nums):
-    max = -float("inf")
+    maxx = -float("inf")
     for num in nums:
-        if num > max:
-            max = num
-    return max
+        if num > maxx:
+            maxx = num
+    return maxx
 
 
 print(find_max([32, 1, 43, 5434, 12]))
